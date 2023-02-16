@@ -1,0 +1,39 @@
+@use "aboutme.scss";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: grey;
+}
+$main-font-size: 2rem;
+img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+footer {
+    display: grid;
+    text-align: center;
+    margin-top: 40px;
+    background-color: black;
+    color: aliceblue;
+    min-height: 10vh;
+    font-size: $main-font-size;
+}
+#main_para {
+    display: grid;
+    min-height: 80vh;
+    place-items: center;
+    text-align: center;
+    background-color: pink;
+    border: dotted;
+    >p{
+        font-size: 0.8rem;
+        color: rgb(121, 85, 85);
+        background-color: pink;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

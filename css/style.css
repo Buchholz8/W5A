@@ -1,0 +1,52 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+  place-items: center;
+}
+header > p {
+  font-size: 3rem;
+  color: pink;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: grey;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+footer {
+  display: grid;
+  text-align: center;
+  margin-top: 40px;
+  background-color: black;
+  color: aliceblue;
+  min-height: 10vh;
+  font-size: 2rem;
+}
+
+#main_para {
+  display: grid;
+  min-height: 80vh;
+  place-items: center;
+  text-align: center;
+  background-color: pink;
+  border: dotted;
+}
+#main_para > p {
+  font-size: 0.8rem;
+  color: rgb(121, 85, 85);
+  background-color: pink;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

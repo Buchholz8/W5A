@@ -1,0 +1,12 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+  place-items: center;
+}
+header > p {
+  font-size: 3rem;
+  color: pink;
+}
+
+/*# sourceMappingURL=aboutme.css.map */

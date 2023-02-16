@@ -1,0 +1,11 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: end;
+    place-items: center;
+    >p {
+font-size: 3rem;
+color: pink;
+    }
+
+}
