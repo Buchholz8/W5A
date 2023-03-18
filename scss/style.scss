@@ -1,4 +1,6 @@
-@use "aboutme.scss";
+
+@use "_header.scss";
+@use "_footer.scss";
 * {
     margin: 0;
     padding: 0;
@@ -13,15 +15,6 @@ img {
     border-radius: 100px;
 }
 
-footer {
-    display: grid;
-    text-align: center;
-    margin-top: 40px;
-    background-color: black;
-    color: aliceblue;
-    min-height: 10vh;
-    font-size: $main-font-size;
-}
 #main_para {
     display: grid;
     min-height: 80vh;
